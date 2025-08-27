@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiry</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="About us.html">About us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="Contact us.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Get in touch</h1>
+            <p>Have a qustion or want to place an order? Fill out the form below and we'll get bact to you soon!</p>
+            <form action="submit-inquiry.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="Phone">phone:</label>
+            <input type="tel" id="phone" name="phone">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">send inquiry</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2025 ArksPetalStudio</p>
+    </footer>
+</body>
+</html>
